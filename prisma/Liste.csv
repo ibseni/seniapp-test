@@ -1,0 +1,176 @@
+﻿numero_activite;valid;description_fr;description_en;code_interne;numero_fournisseur;numero_gl_achat
+01211;;Allocation;Allocation;;;33100
+01212;;Amendes;Amendes;;;42115
+01213;;Penalites;Penalites;;;33100
+01311;;Surintendant;Surintendant;;;33300
+01312;;Adjoint au projet;Adjoint au projet;;;33300
+01313;;Charge de projet;Charge de projet;;;33300
+01314;;Agent prevention;Agent prevention;;;33300
+01316;;Menuisier;Menuisier;;;33300
+01317;;Journalier;Journalier;;;33300
+01318;;Frais de representation;Frais de representation;;;42115
+01319;;Alloc.voyage/chantier;Alloc.voyage/chantier;;;42115
+01511;;Electricite temporaire;Electricite temporaire;;;42106
+01512;;Extincteurs de chantier;Extincteurs de chantier;;;33100
+01513;;Chauffage temporaire;Chauffage temporaire;;;41100
+01514;;Installation temporaire;Installation temporaire;;;41100
+01515;;Pompages temporaires;Pompages temporaires;;;41100
+01516;;Eau temporaire;Eau temporaire;;;41100
+01517;;Gardiennage;Gardiennage;;;33100
+01521;;Bureau de chantier;Bureau de chantier;;;33100
+01522;;Equip.securite/Premier soins;Equip.securite/Premiers soins;;;42127
+01523;;Toilettes temporaires;Toilettes temporaires;;;33100
+01524;;Ameublement de bureau;Ameublement de bureau;;;33100
+01525;;Telephone et telephone cellulaire;Telephone et telephone cellulaire;;;33100
+01526;;Fax/photocopieur;Fax/photocopieur;;;33100
+01527;;Papeterie;Papeterie;;;33100
+01528;;Messagerie;Messagerie;;;33100
+01529;;Reproduction/dessins;Reproduction/dessins;;;33100
+01531;;Equipements et outillage;Equipements et outillage;;;42119
+01532;;Petits outillages;Petits outillages;;;42126
+01541;;Grues;Grues;;;42126
+01542;;Echaffaudage;Echaffaudage;;;33100
+01543;;Plate-forme volante;Plate-forme volante;;;33100
+01551;;Frais des tationnement;Frais des tationnement;;;42115
+01562;;Barricades/murs temporaires;Barricades/murs temporaires;;;33100
+01563;;Portes et fenetres temporaires;Portes et fenetres temporaires;;;33100
+01564;;Protection pietonniere;Protection pietonniere;;;33100
+01565;;Cloture de chantier;Cloture de chantier;;;41100
+01566;;Entreposage temporaire;Entreposage temporaire;;;41100
+01567;;Protection vegetation;Protection vegetation;;;41100
+01571;;Controle erosion et sediment;Controle erosion et sediment;;;33100
+01572;;Travaux d'hiver;Travaux d'hiver;;;33100
+01573;;Enlevement de la neige;Enlevement de la neige;;;33100
+01581;;Pancarte site/affichage;Pancarte site/affichage;;;33100
+01711;;Ingenierie de projet;Ingenierie de projet;;;33100
+01712;;Lignes et niveaux;Lignes et niveaux;;;33100
+01713;;Technicien LEED;Technicien LEED;;;33100
+01715;;Verification (test et essais);Verification (test et essais);;;33100
+01716;;Honoraires professionnels;Honoraires professionnels;;;33100
+01741;;Nettoyage journalier;Nettoyage journalier;;;33100
+01742;;Nettoyage final;Nettoyage final;;;33100
+01743;;Conteneurs;Conteneurs;;;33100
+01744;;Nettoyage de vitres;Nettoyage de vitres;;;33100
+01745;;Nettoyage de murs;Nettoyage de murs;;;33100
+01781;;Permis;Permis;;;42128
+01782;;Caution;Caution;;;42103
+01783;;Assurance de chantier;Assurance de chantier;;;42098
+01784;;Assurance wrapup de chantier;Assurance wrapup de chantier;;;42098
+01785;;Permis de rue;Permis de rue;;;42129
+01786;;Permis de coupe d'arbre;Permis de coupe d'arbre;;;42129
+02411;;Demolition;Demolition;;;33100
+02412;;Demolition Structurale;Demolition Structurale;;;33100
+02413;;Sciage de beton;Sciage de beton;;;33100
+02611;;Sol contamine;Sol contamine;;;33100
+02821;;Amiante;Amiante;;;33100
+02851;;Moisissures;Moisissures;;;33100
+03101;;Beton;Beton;;;33100
+03111;;Coffrages;Coffrages;;;33100
+03151;;Acessoires beton;Acessoires beton;;;33100
+03211;;Armature;Armature;;;33100
+03252;;Renforcement carbone;Renforcement carbone;;;33100
+03305;;Beton coule en place;Beton coule en place;;;33100
+03331;;Reparation et nett. du beton;Reparation et nett. du beton;;;33100
+03351;;Finition beton/chappes;Finition beton/chappes;;;33100
+03352;;Chappe auto nivelante;Chappe auto nivelante;;;33100
+03411;;Beton prefabrique;Beton prefabrique;;;33100
+03611;;Coulissans retrait;Coulissans retrait;;;33100
+03821;;Forage beton;Forage beton;;;33100
+04211;;Maconnerie;Maconnerie;;;33100
+04212;;Fourniture Maconnerie;Fourniture Maconnerie;;;33510
+05121;;Structure d'acier;Structure d'acier;;;33100
+05511;;Metaux ouvres;Metaux ouvres;;;33100
+05512;;Equipements structuraux;Equipements structuraux;;;33100
+05805;;Couvre joint dilatation;Couvre joint dilatation;;;33100
+06105;;Charpenterie et menuiserie;Charpenterie et menuiserie;;;33100
+06201;;Menuiserie definition;Menuiserie definition;;;33100
+06401;;Ebenisterie;Ebenisterie;;;33100
+07111;;Impermeabilisation;Impermeabilisation;;;33100
+07191;;Calfeutrage;Calfeutrage;;;33100
+07211;;Isolation;Isolation;;;33100
+07241;;Enduits Cimentaire;;;;33100
+07271;;Menbrane pare-air;Menbrane pare-air;;;33100
+07272;;Membrane pare-vapeur;Membrane pare-vapeur;;;33100
+07273;;Pare humidite;Pare humidite;;;33100
+07462;;Revetement metallique;Revetement metallique;;;33100
+07464;;Revetement composite;Revetement composite;;;33100
+07511;;Toiture (parapets);Toiture (parapets);;;33100
+07651;;Solinage;Solinage;;;33100
+07811;;Ignifugation;Ignifugation;;;33100
+07951;;Joints d'expansion;Joints d'expansion;;;33100
+08111;;Portes, cadres et quincaillerie;Portes, cadres et quincaillerie;;;33100
+08141;;Portes/cadres en bois;Portes/cadres en bois;;;33100
+08311;;Portes d'acces;Portes d'acces;;;33100
+08331;;Grilles a enroulement;Grilles a enroulement;;;33100
+08341;;Portes de garage;Portes de garage;;;33100
+08342;;Portes speciales;Portes speciales;;;33100
+08351;;Portes pliantes/accordeon;Portes pliantes/accordeon;;;33100
+08441;;Mur rideau et devantures;Mur rideau et devantures;;;33100
+08511;;Fenetres;Fenetres;;;33100
+08621;;Lanterneaux;Lanterneaux;;;33100
+08711;;Quicaillerie architecturale;Quicaillerie architecturale;;;33100
+08811;;Vitrage;Vitrage;;;33100
+08871;;Film3M;Film3M;;;33100
+08911;;Louvres;Louvres;;;33100
+09211;;Systeme interieur;Systeme interieur;;;33100
+09212;;Systeme interieur FOURNITURE;Systeme interieur FOURNITURE;;;33100
+09301;;Ceramique;Ceramique;;;33100
+09302;;Granite;Granite;;;33100
+09511;;Plafonds suspendus;Plafonds suspendus;;;33100
+09611;;Preparation de plancher;Preparation de plancher;;;33100
+09642;;Plancher de bois;Plancher de bois;;;33100
+09651;;Couvre-planchers souples;Couvre-planchers souples;;;33100
+09652;;Recouvrement de sol special;Recouvrement de sol special;;;33100
+09661;;Plancher terrazo;Plancher terrazo;;;33100
+09681;;Tapis;Tapis;;;33100
+09691;;Planchers sur eleves;Planchers sur eleves;;;33100
+09721;;Vinyle mural;Vinyle mural;;;33100
+09811;;Panneaux accoustiques;Panneaux accoustiques;;;33100
+09911;;Peinture;Peinture;;;33100
+09964;;Peinture intumescente;Peinture intumescente;;;33100
+09965;;Peinture epoxy;Peinture epoxy;;;33100
+10111;;Tableaux erciture/autres;Tableaux erciture/autres;;;33100
+10141;;Signalisation interieure;Signalisation interieure;;;33100
+10211;;Cloisons toilettes;Cloisons toilettes;;;33100
+10221;;Cloisons amovibles;Cloisons amovibles;;;33100
+10261;;Protecteurs mureaux/angles;Protecteurs mureaux/angles;;;33100
+10281;;Accessoires de toilette;Accessoires de toilette;;;33100
+10311;;Foyers;Foyers;;;33100
+10315;;Contremaitre;Contremaitre;;;33300
+10441;;Extincteurs;Extincteurs;;;33100
+10511;;Casiers;Casiers;;;33100
+10512;;Cloisons grillagees;Cloisons grillagees;;;33100
+10562;;Rangement mobile;Rangement mobile;;;33100
+10821;;Persiennes;Persiennes;;;33100
+11131;;Quai reception;Quai reception;;;33100
+11411;;Equipements de cuisine;Equipements de cuisine;;;33100
+12211;;Stores;Stores;;;33100
+12482;;Grilles gratte-pied;Grilles gratte-pied;;;33100
+12611;;Sieges multiples;Sieges multiples;;;33100
+13241;;Sauna;Sauna;;;33100
+14241;;Ascenseurs;Ascenseurs;;;33100
+14310;;Escaliers roulants;Escaliers roulants;;;33100
+21131;;Protection incendie;Protection incendie;;;33100
+22071;;Calorifugeage;Calorifugeage;;;33100
+22111;;Plomberie;Plomberie;;;33100
+22611;;Gaz medicaux;Gaz medicaux;;;33100
+23311;;Ventilation;Ventilation;;;33100
+23312;;Geothermie;Geothermie;;;33100
+25051;;Controle/regulation;Controle/regulation;;;33100
+26051;;Electricite;Electricite;;;33100
+27051;;Cablage/data;Cablage/data;;;33100
+28131;;Controle d'acces/securite;Controle d'acces/securite;;;33100
+28311;;Alarme incende;Alarme incende;;;33100
+31231;;Excavation/remblais;Excavation/remblais;;;33100
+31232;;Excavation dans le roc;Excavation dans le roc;;;33100
+31233;;Drainage sous dalle;Drainage sous dalle;;;33100
+31411;;SoutainemenUpallanche;SoutainemenUpallanche;;;33100
+31481;;Sous-oeuvre;Sous-oeuvre;;;33100
+31621;;Pieux;Pieux;;;33100
+32121;;Asphalte;Asphalte;;;33100
+32141;;Pavé unis;Pavé unis;;;33100
+32161;;Trottoir/chaîne de trottoir;Trottoir/chaîne de trottoir;;;33100
+32172;;Marquage chaussée;Marquage chaussée;;;33100
+32311;;Clôtures;Clôtures;;;33100
+32911;;Aménagement paysager;Aménagement paysager;;;33100
+99999;;A RECLASSER;A RECLASSER;;;33100
