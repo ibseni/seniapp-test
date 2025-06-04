@@ -517,6 +517,8 @@ export function PurchaseOrdersTable() {
                           ? "default"
                           : order.statut === "Annulé"
                           ? "destructive"
+                          : order.statut === "En révision"
+                          ? "default"
                           : "secondary"
                       }
                     >

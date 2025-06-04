@@ -472,22 +472,23 @@ export async function generatePurchaseOrderPDF(numero_bon_commande: string) {
     poPages.forEach(page => mergedPdf.addPage(page));
 
     try {
-      // FORMAT FICHIER DE CLAUSES EN FONCTION DE LA RELATION COMPAGNIE
-      // clauses-fournisseur.pdf ou clauses-sous-traitant.pdf
-      let clauseType:string = po.demande_achat.relation_compagnie;
-      console.log('Relation compagnie:', clauseType);
+      //Get clauses PDF paths
+      const clausesFournisseurPath = join(process.cwd(), 'public', 'clauses-fournisseur.pdf');
+      const clausesSousTraitantPath = join(process.cwd(), 'public', 'clauses-sous-traitant.pdf');
+      console.log(clausesFournisseurPath, clausesSousTraitantPath);
 
+      //Load clauses PDF buffers
+      const clauseFournisseurBuffer = readFileSync(clausesFournisseurPath);
+      const clauseSousTraitantBuffer = readFileSync(clausesSousTraitantPath);
+      if(!clauseFournisseurBuffer || !clauseSousTraitantBuffer) throw new Error("Unable to load clauses PDF buffers");
+      
+      // Get clause type from DB
+      let clauseType = po.demande_achat.relation_compagnie;
+      if(!clauseType) clauseType = "fournisseur" //Temp
 
-      // Puisque toutes les demandes d'achats n'ont pas précisés de relation compagnie, 
-      // en attendant, on va mettre la clause de fournisseur par défaut
-      if(!po.demande_achat.relation_compagnie) clauseType = 'fournisseur';
-      // SUPPRIMER LA LIGNE CI-DESSUS QUAND TOUTE LES DEMANDES D'ACHATS SERONT MIS À JOUR
-
-
-      if(!clauseType) throw new Error('Relation compagnie is null, need to be defined');
-      const clausesPath = join(process.cwd(), 'public', `clauses-${clauseType}.pdf`);
-      if (existsSync(clausesPath)) {
-        const clausesBuffer = readFileSync(clausesPath);
+      console.log(clauseType, "PDF-1? :", existsSync(clausesFournisseurPath), "PDF-2? :", existsSync(clausesSousTraitantPath));
+      if (existsSync(clausesFournisseurPath) && existsSync(clausesSousTraitantPath)){
+        const clausesBuffer = clauseType === "sous-traitant" ? clauseSousTraitantBuffer : clauseFournisseurBuffer;
         const clausesPdf = await PDFDocument.load(new Uint8Array(clausesBuffer));
         const clausesPages = await mergedPdf.copyPages(clausesPdf, clausesPdf.getPageIndices());
         clausesPages.forEach(page => mergedPdf.addPage(page));
